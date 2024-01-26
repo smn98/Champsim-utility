@@ -1,0 +1,66 @@
+// Debug config file for vscode.
+// Put this in .vscode directory
+// Change program, arguments according to your needs
+// Build with debug flag
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/hashed_perceptron-no-no-ip_stride-no-no-no-no-no-lru-lru-lru-lru-lru-lru-lru-lru-lru-1core-no-ip_stride-on_access-no-secure",
+            "args": [
+                "-warmup_instructions",
+                "1000000",
+                "-simulation_instructions",
+                "5000000",
+                "-traces",
+                "${workspaceFolder}/../../traces/spec/605.mcf_s-1554B.champsimtrace.xz"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "C/C++: g++-7 build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++-7 build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
