@@ -1,0 +1,53 @@
+name,searchText,cache,fieldNumber
+Average MSHR Occupancy,AVERAGE MSHR OCCUPANCY:,1,5
+Average MSHR LOAD occupancy,AVERAGE MSHR LOAD OCCUPANCY:,1,6
+Average MSHR PREFETCH occupancy,AVERAGE MSHR PREFETCH OCCUPANCY:,1,6
+Average RQ Occupancy,AVERAGE RQ OCCUPANCY:,1,5
+Average WQ Occupancy,AVERAGE WQ OCCUPANCY:,1,5
+Average PQ Occupancy,AVERAGE PQ OCCUPANCY:,1,5
+MSHR Full,MSHR FULL:,1,4
+RQ Full,RQ FULL:,1,4
+WQ Full,WQ FULL:,1,4
+PQ Full,PQ FULL:,1,4
+Commit Late,COMMIT LATE PREFETCHES:,1,5
+Normal Late,COMMIT LATE PREFETCHES:,1,8
+Missed Opportunity,COMMIT LATE PREFETCHES:,1,11
+Uncovered,COMMIT LATE PREFETCHES:,1,13
+L1D commit load hit rate,L1D COMMIT LOAD NON_SPEC    ACCESS:,0,13
+L1D commit write hit rate,L1D COMMIT WRITE NON_SPEC    ACCESS:,0,13
+L2C commit load hit rate,L2C COMMIT LOAD NON_SPEC    ACCESS:,0,13
+L2C clean eviction hit rate,L2C CLEAN_EVICTION NON_SPEC    ACCESS:,0,12
+LLC commit load hit rate,LLC COMMIT LOAD NON_SPEC    ACCESS:,0,13
+LLC clean eviction hit rate,LLC CLEAN_EVICTION NON_SPEC    ACCESS:,0,12
+Discard buffer hit rate,Discarded buffer inserts:,0,9 
+Access All,TOTAL     ACCESS:,1,4
+Access Load,LOAD      TOTAL       ACCESS:,1,5
+Access Commit Load,COMMIT LOAD NON_SPEC    ACCESS:,1,6
+Access Commit Write,COMMIT WRITE NON_SPEC    ACCESS:,1,6
+Access Clean Eviction,CLEAN_EVICTION NON_SPEC    ACCESS:,1,5
+Access RFO,RFO       NON_SPEC    ACCESS:,1,5
+Access Prefetch,PREFETCH  NON_SPEC    ACCESS:,1,5
+MPKI All,TOTAL     ACCESS:,1,16
+Miss Rate All,TOTAL     ACCESS:,1,14
+MPKI Load,LOAD      TOTAL       ACCESS:,1,17
+Miss Rate Load,LOAD      TOTAL       ACCESS:,1,15
+Miss Latency All,AVERAGE MISS LATENCY:,1,5
+Miss Latency Load,AVERAGE MISS LATENCY LOAD:,1,6
+Average MSHR occupancy,AVERAGE MSHR OCCUPANCY:,1,5
+MSHR full,MSHR FULL:,1,4
+Useless prefetches,PREFETCH  REQUESTED:,1,10
+Dropped prefetches,TIMELY PREFETCHES:,1,22
+Timely prefetches,TIMELY PREFETCHES:,1,4
+Late prefetches,TIMELY PREFETCHES:,1,7
+Prefetch fills,PREFETCHES SAME FILL-ORIGIN LEVEL:,1,6
+Prefetches issued to lower level,USEFUL LOAD PREFETCHES:,1,11
+IPC,CPU 0 cumulative IPC:,0,5
+Cycles,CPU 0 cumulative IPC:,0,9
+Commit hit rate,Commit hit %:,0,4
+Percent speculative,Percentage of speculative loads:,0,5
+DRAM bus congested,DBUS_CONGESTED:,0,2
+Fill Latency,L1D response latency:,0,4
+Retirement Latency,Load retirement latency:,0,4
+Fill Latency Prefetcher,LATENCY_FILL:,0,2
+Retirement Latency Prefetcher,LATENCY_FILL_ROB:,0,2
+Filter Accuracy,Filter prediction accuracy:,0,4
